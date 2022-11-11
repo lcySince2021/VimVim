@@ -191,16 +191,16 @@ endif
 
 
 "花括号自动格式化，首行一个tab
-autocmd FileType cpp,java inoremap { {<CR>}<ESC>kA<CR>
+" autocmd FileType cpp,java inoremap { {<CR>}<ESC>kA<CR>
 
 set fenc=" "
 "显示匹配
 set showmatch
 "括号匹配
-inoremap ( ()<ESC>i
-inoremap [ []<ESC>i
-inoremap ' ''<ESC>i
-inoremap " ""<ESC>i
+" inoremap ( ()<ESC>i
+" inoremap [ []<ESC>i
+" inoremap ' ''<ESC>i
+" inoremap " ""<ESC>i
 set selectmode=mouse,key
 set selection=exclusive
 set mouse=n "可视模式下使用鼠标，set mouse=a这个命令导致在vim下复制粘贴不好用
@@ -313,7 +313,7 @@ endfunc
 " Hello，我是PowerVim的作者，程序员Carl，欢迎关注我的微信公众号：代码随想录 
 
 " 使用的背景主题
-colorscheme Monokai_Gavin
+colorscheme monokai
 " 添加自动补全字典
 au FileType php setlocal dict+=~/.vim/dictionary/php_keywords_list.txt
 au FileType cpp setlocal dict+=~/.vim/dictionary/cpp_keywords_list.txt
