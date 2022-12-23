@@ -242,7 +242,7 @@ autocmd filetype java nnoremap <F2> :w <bar> exec '!java -cp ./bin '.shellescape
 
 let g:tlist_markdown_settings = 'markdown;h:Headlins'
 "新建.c,.h,.sh,.Java文件，自动插入文件头
-autocmd BufNewFile *.cpp,*.[ch],*.sh,*.Java,*.go exec ":call SetTitle()"
+" autocmd BufNewFile *.cpp,*.[ch],*.sh,*.Java,*.go exec ":call SetTitle()"
 """定义函数SetTitle，自动插入文件头
 "func SetTitle()
 "    "如果文件类型为.sh文件
