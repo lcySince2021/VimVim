@@ -197,10 +197,10 @@ set fenc=" "
 "显示匹配
 set showmatch
 "括号匹配
-" inoremap ( ()<ESC>i
-" inoremap [ []<ESC>i
-" inoremap ' ''<ESC>i
-" inoremap " ""<ESC>i
+inoremap ( ()<ESC>i
+inoremap [ []<ESC>i
+inoremap ' ''<ESC>i
+inoremap " ""<ESC>i
 set selectmode=mouse,key
 set selection=exclusive
 set mouse=n "可视模式下使用鼠标，set mouse=a这个命令导致在vim下复制粘贴不好用
